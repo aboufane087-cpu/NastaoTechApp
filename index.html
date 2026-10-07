@@ -1,0 +1,674 @@
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nastao Tech</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#087cff">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+  
+<body>
+
+    <!-- ================= ACCUEIL ================= -->
+
+    <section id="accueil" class="page active">
+
+        <header class="header">
+
+            <div>
+                <p class="welcome">Bienvenue chez</p>
+                <h1>NASTAO TECH</h1>
+            </div>
+
+            <div class="logo">📱</div>
+
+        </header>
+
+
+        <div class="hero">
+
+            <span class="badge">
+                TECHNOLOGIE • INNOVATION
+            </span>
+
+            <h2>
+                La précision au cœur
+                de vos téléphones.
+            </h2>
+
+            <p>
+                Vente • Réparation • Accessoires
+            </p>
+
+            <button onclick="showPage('boutique')">
+                🛍️ Découvrir la boutique
+            </button>
+
+        </div>
+
+
+        <h2 class="section-title">
+            Nos activités
+        </h2>
+
+
+        <div class="activity-grid">
+
+            <div class="activity">
+                <span>📱</span>
+                <h3>Smartphones</h3>
+                <p>Découvrez nos téléphones.</p>
+            </div>
+
+            <div class="activity">
+                <span>🎧</span>
+                <h3>Accessoires</h3>
+                <p>Équipez vos appareils.</p>
+            </div>
+
+            <div class="activity">
+                <span>🔧</span>
+                <h3>Réparation</h3>
+                <p>Solutions pour vos appareils.</p>
+            </div>
+
+            <div class="activity">
+                <span>⚙️</span>
+                <h3>Services</h3>
+                <p>Assistance smartphone.</p>
+            </div>
+
+        </div>
+
+
+        <div class="about-box">
+
+            <h2>Pourquoi Nastao Tech ?</h2>
+
+            <p>
+                Nous proposons des solutions modernes pour
+                accompagner nos clients dans l'utilisation,
+                l'entretien et l'équipement de leurs smartphones.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= BOUTIQUE ================= -->
+
+    <section id="boutique" class="page">
+
+        <div class="page-header">
+
+            <h1>🛍️ Boutique</h1>
+
+            <p>
+                Découvrez nos produits
+            </p>
+
+        </div>
+
+
+        <div class="products">
+
+
+            <!-- SMARTPHONE -->
+
+            <div class="product">
+
+                <div class="product-image">
+
+                    <img
+                        src="images/smartphone.jpg"
+                        alt="Smartphone">
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="category">
+                        Smartphone
+                    </span>
+
+                    <h3>
+                        Smartphone Android
+                    </h3>
+
+                    <p>
+                        Smartphone moderne et performant.
+                    </p>
+
+                    <strong>
+                        50 000 FCFA
+                    </strong>
+
+                    <button
+                        onclick="ajouterAuPanier('Smartphone Android', 50000)">
+                        🛒 Ajouter au panier
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ECOUTEURS -->
+
+            <div class="product">
+
+                <div class="product-image">
+
+                    <img
+                        src="images/ecouteurs.jpg"
+                        alt="Écouteurs Bluetooth">
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="category">
+                        Accessoire
+                    </span>
+
+                    <h3>
+                        Écouteurs Bluetooth
+                    </h3>
+
+                    <p>
+                        Écouteurs sans fil.
+                    </p>
+
+                    <strong>
+                        5 000 FCFA
+                    </strong>
+
+                    <button
+                        onclick="ajouterAuPanier('Écouteurs Bluetooth', 5000)">
+                        🛒 Ajouter au panier
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CHARGEUR -->
+
+            <div class="product">
+
+                <div class="product-image">
+
+                    <img
+                        src="images/chargeur.jpg"
+                        alt="Chargeur rapide">
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="category">
+                        Accessoire
+                    </span>
+
+                    <h3>
+                        Chargeur rapide
+                    </h3>
+
+                    <p>
+                        Chargeur pour smartphone.
+                    </p>
+
+                    <strong>
+                        3 000 FCFA
+                    </strong>
+
+                    <button
+                        onclick="ajouterAuPanier('Chargeur rapide', 3000)">
+                        🛒 Ajouter au panier
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CABLE -->
+
+            <div class="product">
+
+                <div class="product-image">
+
+                    <img
+                        src="images/cable.jpg"
+                        alt="Câble USB">
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="category">
+                        Accessoire
+                    </span>
+
+                    <h3>
+                        Câble USB
+                    </h3>
+
+                    <p>
+                        Recharge et transfert de fichiers.
+                    </p>
+
+                    <strong>
+                        2 000 FCFA
+                    </strong>
+
+                    <button
+                        onclick="ajouterAuPanier('Câble USB', 2000)">
+                        🛒 Ajouter au panier
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= PANIER ================= -->
+
+    <section id="panier" class="page">
+
+        <div class="page-header">
+
+            <h1>🛒 Mon panier</h1>
+
+            <p>
+                Vérifiez votre commande
+            </p>
+
+        </div>
+
+
+        <div id="panier-contenu" class="cart-container">
+
+            <div class="empty-cart">
+
+                <span>🛒</span>
+
+                <h2>
+                    Votre panier est vide
+                </h2>
+
+                <p>
+                    Ajoutez des produits depuis la boutique.
+                </p>
+
+                <button onclick="showPage('boutique')">
+                    🛍️ Voir la boutique
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="cart-total">
+
+            <p>Total de la commande</p>
+
+            <h2>
+                <span id="total">0</span> FCFA
+            </h2>
+
+            <button
+                class="order-button"
+                onclick="ouvrirCommande()">
+
+                🚚 Passer la commande
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= COMMANDE ================= -->
+
+    <section id="commande" class="page">
+
+        <div class="page-header">
+
+            <h1>🧾 Votre commande</h1>
+
+            <p>
+                Informations client
+            </p>
+
+        </div>
+
+
+        <div class="order-form">
+
+            <label>
+                Nom complet
+            </label>
+
+            <input
+                id="client-nom"
+                type="text"
+                placeholder="Votre nom">
+
+
+            <label>
+                Numéro de téléphone
+            </label>
+
+            <input
+                id="client-tel"
+                type="tel"
+                placeholder="Ex : 0700000000">
+
+
+            <label>
+                Ville
+            </label>
+
+            <input
+                id="client-ville"
+                type="text"
+                placeholder="Votre ville">
+
+
+            <label>
+                Lieu / quartier
+            </label>
+
+            <input
+                id="client-lieu"
+                type="text"
+                placeholder="Votre quartier">
+
+
+            <label>
+                Message supplémentaire
+            </label>
+
+            <textarea
+                id="client-message"
+                placeholder="Une précision concernant votre commande...">
+            </textarea>
+
+
+            <button
+                class="whatsapp-order"
+                onclick="envoyerCommande()">
+
+                💬 Confirmer sur WhatsApp
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= SERVICES ================= -->
+
+    <section id="services" class="page">
+
+        <div class="page-header">
+
+            <h1>🔧 Nos services</h1>
+
+            <p>
+                Solutions pour smartphones
+            </p>
+
+        </div>
+
+
+        <div class="service-list">
+
+
+            <div class="service">
+
+                <span>⚙️</span>
+
+                <div>
+
+                    <h3>
+                        Configuration
+                    </h3>
+
+                    <p>
+                        Configuration complète de smartphones.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="service">
+
+                <span>💻</span>
+
+                <div>
+
+                    <h3>
+                        Services logiciels
+                    </h3>
+
+                    <p>
+                        Flash, réinstallation et optimisation.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="service">
+
+                <span>📁</span>
+
+                <div>
+
+                    <h3>
+                        Transfert de fichiers
+                    </h3>
+
+                    <p>
+                        Photos, vidéos et documents.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="service">
+
+                <span>🔍</span>
+
+                <div>
+
+                    <h3>
+                        Diagnostic
+                    </h3>
+
+                    <p>
+                        Identification des problèmes.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="service">
+
+                <span>🔧</span>
+
+                <div>
+
+                    <h3>
+                        Réparation
+                    </h3>
+
+                    <p>
+                        Entretien et réparation des smartphones.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="page">
+
+        <div class="page-header">
+
+            <h1>💬 Contact</h1>
+
+            <p>
+                Parlons de votre projet
+            </p>
+
+        </div>
+
+
+        <div class="contact-card">
+
+            <div class="big-logo">
+                📱
+            </div>
+
+            <h2>
+                NASTAO TECH
+            </h2>
+
+            <p>
+                La précision au cœur de vos téléphones.
+            </p>
+
+
+            <button
+                onclick="contacterWhatsApp()">
+
+                💬 WhatsApp
+
+            </button>
+
+
+            <button
+                class="call-button"
+                onclick="appeler()">
+
+                📞 Appeler Nastao Tech
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <nav class="bottom-nav">
+
+        <button
+            onclick="showPage('accueil')">
+
+            <span>🏪</span>
+            <small>Accueil</small>
+
+        </button>
+
+
+        <button
+            onclick="showPage('boutique')">
+
+            <span>🛍️</span>
+            <small>Boutique</small>
+
+        </button>
+
+
+        <button
+            onclick="showPage('panier')">
+
+            <span>🛒</span>
+            <small>Panier</small>
+
+        </button>
+
+
+        <button
+            onclick="showPage('services')">
+
+            <span>🔧</span>
+            <small>Services</small>
+
+        </button>
+
+
+        <button
+            onclick="showPage('contact')">
+
+            <span>☎️</span>
+            <small>Contact</small>
+
+        </button>
+
+    </nav>
+
+
+
+    <script src="script.js"></script>
+
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("service-worker.js")
+      .then(() => {
+        console.log("Nastao Tech : service worker activé");
+      })
+      .catch(error => {
+        console.error("Erreur service worker :", error);
+      });
+  });
+}
+</script>
+  
+</body>
+
+</html>
